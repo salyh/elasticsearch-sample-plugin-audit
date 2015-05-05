@@ -8,7 +8,7 @@
 
     <groupId>de.saly</groupId>
     <artifactId>elasticsearch-sample-plugin-audit</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1</version>
     <name>elasticsearch-sample-plugin-audit</name>
     <description>Capture index changes and write them into elasticsearch (audittrail)</description>
     <inceptionYear>2015</inceptionYear>
@@ -182,7 +182,6 @@
                     <descriptors>
                         <descriptor>${basedir}/src/main/assemblies/plugin.xml</descriptor>
                     </descriptors>
-                    <appendAssemblyId>true</appendAssemblyId>
                 </configuration>
                 <executions>
                     <execution>
